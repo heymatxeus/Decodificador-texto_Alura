@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Decodificador Texto</title>
+		<link rel="stylesheet" href="assets/styles/reset.css">
+		<link rel="stylesheet" href="assets/styles/style.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<section class="main">
+			<section class="entrada">
+				<nav class="nav">
+					<img src="assets/images/logo-alura.png" alt="Logo Alura">
+				</nav>
+
+				<input type="text" class="input-usuario" placeholder="Digite seu texto">
+
+				<div class="secao-botoes">
+					<p class="help">Apenas letras minúsculas e sem acento.</p>
+
+					<div class="botoes">
+						<input type="button" class="botao criptografar" value="criptografar">
+						<input type="button" class="botao descriptografar" value="descriptografar">
+					</div>
+				</div>
+			</section>
+
+			<section class="saida">
+				<div class="ocultar">
+					<h2>Nenhuma mensagem encontrada</h2>
+					<p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+				</div>
+				<div class="mostrar">
+					<p class="resultado"></p>
+
+					<button class="botao copiar">Copiar</button>
+				</div>
+			</section>
+		</section>
+		<script src="assets/scripts/script.js"></script>
+	</body>
+</html>
